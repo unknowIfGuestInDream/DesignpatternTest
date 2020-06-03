@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+    <!--配置连接池 TF-->
+    <named-config name="TF">
+        <property name="driverClass">oracle.jdbc.driver.OracleDriver</property>
+        <property name="jdbcUrl">jdbc:oracle:thin:@10.18.26.201:1521:TF</property>
+        <property name="user">TF</property>
+        <property name="password">TF</property>
+        <property name="initialPoolSize">10</property>
+        <property name="maxIdleTime">10</property>
+        <property name="maxPoolSize">100</property>
+        <property name="minPoolSize">10</property>
+        <property name="maxStatements">1000</property>
+        <property name="acquireIncrement">3</property>
+        <property name="initialPoolSize">10</property>
+        <property name="idleConnectionTestPeriod">60</property>
+        <property name="acquireRetryAttempts">30</property>
+        <property name="breakAfterAcquireFailure">true</property>
+        <property name="testConnectionOnCheckout">false</property>
+        <property name="acquireRetryDelay">1000</property>
+        <property name="numHelperThreads">3</property>
+    </named-config>
+</c3p0-config>
