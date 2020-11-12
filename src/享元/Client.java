@@ -12,8 +12,8 @@ public class Client {
 
     public static void main(String[] args) {
         FlyweightFactory flyweightFactory = new FlyweightFactory();
-        IFlyweight flyweight1 = flyweightFactory.getFlyweight("aa");
-        IFlyweight flyweight2 = flyweightFactory.getFlyweight("bb");
+        IFlyweight flyweight1 = FlyweightFactory.getFlyweight("aa");
+        IFlyweight flyweight2 = FlyweightFactory.getFlyweight("bb");
         flyweight1.operation("a");
         flyweight2.operation("b");
     }

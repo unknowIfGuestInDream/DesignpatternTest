@@ -10,6 +10,7 @@ public class Music extends PhoneDecorate {
         super(p);
     }
 
+    @Override
     public void call() {
         super.call();
         System.out.println("听音乐");

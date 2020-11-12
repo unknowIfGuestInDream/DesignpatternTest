@@ -8,6 +8,7 @@ package 反射赋值;
 public class Student {
     private String name;
     public int age;
+    @Override
     public String toString() {
         return "student{name='" + this.name + '\'' + ", age=" + this.age + '}';
     }

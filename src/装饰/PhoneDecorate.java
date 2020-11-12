@@ -12,6 +12,7 @@ public abstract class PhoneDecorate implements Phone {
         this.p = p;
     }
 
+    @Override
     public void call() {
         this.p.call();
     }

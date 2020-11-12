@@ -10,6 +10,7 @@ public class Ring extends PhoneDecorate {
         super(p);
     }
 
+    @Override
     public void call() {
         System.out.println("手机听彩铃");
         super.call();
