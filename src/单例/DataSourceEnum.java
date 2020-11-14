@@ -11,7 +11,7 @@ public enum DataSourceEnum {
     DATASOURCE;
     private DBUtil dbUtil = null;
 
-    private DataSourceEnum() {
+    DataSourceEnum() {
         dbUtil = new DBUtil();
     }
 
