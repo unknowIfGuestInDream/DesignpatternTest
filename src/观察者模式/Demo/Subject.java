@@ -1,6 +1,6 @@
 package 观察者模式.Demo;
 
-import 观察者模式.Observer;
+import 观察者模式.Demo1.Observer;
 
 /**
  * 主题

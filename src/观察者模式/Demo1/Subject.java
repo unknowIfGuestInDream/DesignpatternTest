@@ -1,4 +1,4 @@
-package 观察者模式;
+package 观察者模式.Demo1;
 
 import java.util.ArrayList;
 import java.util.List;
