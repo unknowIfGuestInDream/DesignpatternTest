@@ -1,0 +1,13 @@
+package 桥接模式.v3.handler;
+
+/**
+ * @author: tangliang
+ * @date: 2020/3/29 23:08.
+ * @description: XXX
+ */
+public class PayMsgHandler implements MsgHandler {
+    @Override
+    public void processMsg(String msg) {
+        System.out.println("start to process pay msg");
+    }
+}
