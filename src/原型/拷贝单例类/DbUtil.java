@@ -2,12 +2,16 @@ package 原型.拷贝单例类;
 
 import 原型.demo1.Citation;
 
+import java.util.HashMap;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @author: TangLiang
  * @date: 2021/2/3 19:10
  * @since: 1.0
  */
 public class DbUtil implements Cloneable {
+    public static ConcurrentHashMap<String, Object> dbs = new ConcurrentHashMap<String, Object>(16);
     private String driver;
     private String url;
     private String user;
