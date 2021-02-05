@@ -99,7 +99,7 @@ class ReadXML {
             } else if (args.equals("bag")) {
                 classNode = nl.item(1).getFirstChild();
             }
-            String cName = "bridge." + classNode.getNodeValue();
+            String cName = "桥接模式.模拟女士皮包的选购." + classNode.getNodeValue();
             Class<?> c = Class.forName(cName);
             Object obj = c.newInstance();
             return obj;
