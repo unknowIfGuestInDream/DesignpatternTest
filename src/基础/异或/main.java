@@ -17,5 +17,8 @@ public class main {
         System.out.println(Math.addExact(2147483647, 1));
         System.out.println("a: " + a);
         System.out.println("b: " + b);
+
+        //https://www.cnblogs.com/shuaiding/p/11124974.html
+        //JavaScript 中调用 Java
     }
 }
