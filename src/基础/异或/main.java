@@ -14,9 +14,14 @@ public class main {
         a = a ^ b;
         b = a ^ b;
         a = a ^ b;
-        System.out.println(Math.addExact(2147483647, 1));
+        //System.out.println(Math.addExact(2147483647, 1));
         System.out.println("a: " + a);
         System.out.println("b: " + b);
+
+        System.out.println('a' ^ 32);
+        char chars = 'b';
+        chars ^= 32;
+        System.out.println(chars);
 
         //https://www.cnblogs.com/shuaiding/p/11124974.html
         //JavaScript 中调用 Java
