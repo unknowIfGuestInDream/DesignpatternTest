@@ -11,9 +11,9 @@ public interface O {
         <B> void $();
     }
 
-    void O($<O> o);
+    void o($<O> o);
 
-    default O O() {
+    default O o() {
         return $<O>::<O>$;
     }
 }
